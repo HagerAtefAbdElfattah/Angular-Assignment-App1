@@ -1,0 +1,22 @@
+.star-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-line{
+    width: 88px;
+    height: 5px;
+}
+
+.after-line{
+    width: 88px;
+    height: 5px;
+}
+
+
+
+

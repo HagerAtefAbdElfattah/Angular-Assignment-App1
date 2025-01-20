@@ -1,0 +1,21 @@
+.contact{
+    height: 100vh;
+}
+
+form .form-group{
+    margin-bottom: 20px;
+}
+
+form input{
+    padding: 10px 20px;
+    border: transparent;
+    border-bottom: 1px solid #dee2e6;
+}
+
+form button{
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    border: transparent;
+    border-radius: 5px;
+}

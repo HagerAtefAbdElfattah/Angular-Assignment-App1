@@ -1,0 +1,4 @@
+.about{
+    height: calc(100vh - 20px );
+    background-color: #1abc9c;
+}

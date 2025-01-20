@@ -1,0 +1,19 @@
+.portfolio{
+    height: 100vh;
+    margin-top: 100px;
+} 
+
+@media screen and (max-width: 990px) {
+    .portfolio{
+        height: auto;
+    }
+    
+}
+
+.portfolio .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

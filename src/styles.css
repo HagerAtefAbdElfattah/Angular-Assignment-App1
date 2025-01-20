@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+img{
+    width: 100%;
+}
+
+h1,h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 39.496px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}

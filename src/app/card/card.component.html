@@ -1,0 +1,29 @@
+<div class="container overflow-fluid">
+    <div class="row g-5 justify-content-center">
+        @for (img of imageUrl; track $index) {
+        <div class="col-lg-4 col-md-6 justify-content-center align-items-center ">
+            <div class="card">
+                <div class="img-wrap" (click)="modal($index, img)" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">
+                    <img class="img-fluid card-img-top rounded-3" src="{{img}}" alt="" >
+                    <div class="img-layer d-flex justify-content-center align-items-center">
+                        <i class="fa-solid fa-plus text-white fs-1"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        }
+
+        <div class="modal fade" id="exampleModal" tabindex="-1"
+            aria-labelledby="exampleModalLabel" [class.d-none]="displayModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-img">
+                        <img class="img-fluid card-img-top rounded-3" [src]="modalImg" [alt]="modalImg + modalIndex">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
